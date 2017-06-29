@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.selectron-9000 {
+
+}
+
+.selectron-9000 span {
+    margin: 0 8px 4px 0;
+}
+
+.selectron-9000 ul {
+    list-style: none;
+    background-color: #DDD;
+}
+
+.selectron-9000 ul li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.selectron-9000 ul li.selected {
+    background-color: #696969;
+    color: #FFF;
+}
+
+.selectron-9000 input {
+    display: block;
+}
+
+.arraydump {
+    max-width: 500px;
+}
+
+.arraydump .row {
+    display: flex;
+    border-bottom: 1px solid #DDD;
+}
+
+.arraydump .row span {
+    width: 25%;
+}
